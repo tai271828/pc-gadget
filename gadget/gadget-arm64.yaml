@@ -1,3 +1,8 @@
+kernel-cmdline:
+  append:
+    - console=hvc0
+    - console=ttyAMA0
+    - earlycon=pl011,0x13010000
 volumes:
   pc:
     # bootloader configuration is shipped and managed by snapd

@@ -1,4 +1,4 @@
-name: pc
+name: pc-bf3-earlycon
 version: '22-0.4'
 type: gadget
 base: core22
@@ -8,6 +8,10 @@ description: |
 confinement: strict
 grade: stable
 icon: icon.png
+
+architectures:
+  - build-on: [amd64, arm64]
+    build-for: arm64
 
 package-repositories:
  - type: apt
