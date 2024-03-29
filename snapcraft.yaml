@@ -90,3 +90,6 @@ parts:
       # We need to install directly in the project dir as snapcraft checks there
       # for gadget.yaml instead of looking first at the prime folder.
       install -m 644 gadget-"$CRAFT_TARGET_ARCH".yaml "$CRAFT_PROJECT_DIR"/gadget.yaml
+
+      # put cmdline.extra
+      install -m 644 cmdline.extra "$CRAFT_PART_INSTALL"/cmdline.extra
