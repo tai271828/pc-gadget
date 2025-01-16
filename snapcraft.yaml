@@ -1,4 +1,4 @@
-name: pc-bf3-earlycon
+name: bluefield-gadget
 version: '22-0.4'
 type: gadget
 base: core22
